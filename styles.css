@@ -1,0 +1,23 @@
+* {font-family: georgia; }
+.container {display:grid; background-color:rgb(0, 255, 127); margin:-8px; border: 2px solid rgb(0, 255, 127);  }
+#baby_polecats {width:100%; max-width:80vw; max-height:60vh; height:100%; padding-left:10%; padding-right:10%; }
+.title-top-left {position:absolute; font-size:2.7rem; padding-left:11%; margin-top: 10px  }
+.i {font-size:1.2rem; margin-top:1px;}
+#a {font-size: 1.5rem; font-weight: 700;}
+ul {list-style-type:none; font-size:1.2rem;}
+h1 {font-size: 1rem; margin:-1px;}
+.dyk {Font-size:1rem; font-weight: 550; margin-bottom:-10px; color: fuchsia; }
+.fun {border: .5px solid rgb(0, 255, 127);}
+.main-section {width:82%; float:right; margin-top: 20px; border:1px solid rgb(0, 255, 127); padding:8px 10px 5px 10px; }
+.page-container {position:relative;}
+.footer { width:90%; margin-top:10px; margin-bottom:10px; font-size:1.2rem; text-align:center; padding:15px; float:right; }
+.navbar {position:fixed; float: left; margin-left:-20px; margin-top:auto; background-color: transparent; }
+nav {display:block; }
+.map {width:100%; height:100%; padding-top:5px; margin-bottom: -12px;}
+.nav-link:hover {color:red;}
+@media (min-width:300px) and (max-width:600px) { .main-section {width:50%; float:right; margin-top: 20px; border:1px solid rgb(0, 255, 127); padding:8px 10px 5px 10px; }
+ .map {Width:100%;}
+#baby_polecats {width:100%;}}
+@media only screen and (min-width:601px) and (max-width:1200px) {.main-section {width:84%; float:right; margin-top: 20px; border:1px solid rgb(0, 255, 127); padding:8px 10px 5px 10px; } 
+.map {width:100vw;}
+#baby_polecats {width:100vw;}}
